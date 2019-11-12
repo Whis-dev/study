@@ -1,0 +1,19 @@
+<!-- <img src="{{images[0].url}}" />
+<img src="{{images[1].url}}" />
+<img src="{{images[2].url}}" /> -->
+
+<!-- <img *ngFor="let image of images" src="{{image.url}}" /> -->
+<!-- <a *ngFor="let image of images" [routerLink]="['/cats', image.id]">
+    <img src="{{image.url}}" />
+</a> -->
+
+<div class="grid-container">
+    <figure *ngFor="let image of images">
+      <a [routerLink]="['/cats', image.id]">
+        <img class="grid-image" src="{{image.url}}" />
+      </a>
+    </figure>
+</div>
+
+<!-- <div #anchor></div> -->
+<app-intersection-observer (intersect)="onIntersect()"></app-intersection-observer>

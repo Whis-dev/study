@@ -1,0 +1,11 @@
+.flexbox {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.profile {
+    
+}
