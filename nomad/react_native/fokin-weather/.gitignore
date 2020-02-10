@@ -12,6 +12,7 @@ web-report/
 .expo
 .expo-shared
 node_modules
+yarn.lock
 
 # macOS
 .DS_Store
