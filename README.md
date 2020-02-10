@@ -6,7 +6,7 @@
 - Nomad Coders React-native Free Course (2019-12-03)
 - Nomad Coders Vanilla JS Free Course (2019-12-03 start but not over)
 - Self Study Python First Week (2020-02-09)
-- Nomad Coders Typescript Free Course(2020-02-09 ~)
+- Nomad Coders Typescript Free Course(From 2020-02-09 to 2020-02-10)
 
 ## To-do List
 
