@@ -2,11 +2,14 @@ type Movie {
     id: Int!
     title: String!
     rating: Float!
-    summary: String!
+    summary: String
     language: String!
     medium_cover_image: String!
+    description_full: String!
 }
 
 type Query {
     movies(limit:Int, rating: Float): [Movie]!
+    movie(id: Int!): Movie
+    suggestions(id: Int!): [Movie]
 }
