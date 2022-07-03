@@ -1,0 +1,13 @@
+{
+  "name": "functional-javascript-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "whis",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "jest": "^28.1.2"
+  }
+}
